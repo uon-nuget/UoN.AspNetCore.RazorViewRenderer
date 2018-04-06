@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>UoN.AspNetCore.RazorViewRenderer</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>UoN Application Development</Authors>
     <Description>UoN shared code ASP.NET render Razor Views to strings.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -13,10 +13,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="1.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="1.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.0.3" />
   </ItemGroup>
 
 </Project>
