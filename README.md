@@ -1,6 +1,7 @@
 # UoN.AspNetCore.RazorViewRenderer
 
 [![License](https://img.shields.io/badge/licence-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/UniversityOfNottingham/UoN.AspNetCore.RazorViewRenderer.svg?branch=master)](https://travis-ci.org/UniversityOfNottingham/UoN.AspNetCore.RazorViewRenderer)
 
 # What is it?
 
